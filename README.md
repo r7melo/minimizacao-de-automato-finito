@@ -33,7 +33,6 @@ Em outras palavras, o processamento de qualquer entrada a partir de estados equi
 
 
 ## Ambiente Virtual
-
 Para criação do ambiente virtual, execute:
 ```
 python -m venv venv
@@ -47,18 +46,18 @@ Para ativar o ambiente e começar a desenvolver, execute:
     ```
     source venv/bin/activate
     ```
-Após o ambiente ativado, 
-
+Após o ambiente ativado, execute o comando abaixo para instalção das dependências:
 ```bash
-pip install notebook
+pip install -r .\requirements.txt
 ```
-
----
+Com as dependências instaladas, incie o jupyter notebook, executando:
+```
+jupyter notebook
+```
+Logo, será aberto uma aba no navegador com o projeto, e dentro da pasta **notebooks**, abrir o notebook principal.
 
 ## Estrutura do Projeto
-
 O projeto se baseia na hierarquia de diretorios abaixo:
-
 ```
 minimizacao-de-automato-finito/
 │
@@ -73,15 +72,7 @@ minimizacao-de-automato-finito/
 ```
 
 
----
 
-## Abrir um Notebook
-
-No terminal, dentro da pasta do projeto, execute:
-```bash
-jupyter notebook
-```
-Logo, será aberto uma aba no navegador com o projeto, e dentro da pasta **notebooks**, abrir o notebook principal.
 
 # Referencias
 - Livro: Linguagens Formais e Autômatos Nº3, Paulo Blauth Menezes
