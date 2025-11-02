@@ -30,7 +30,21 @@ Em outras palavras, o processamento de qualquer entrada a partir de estados equi
 
 # Configurações
 
+## Graphviz
 
+É uma ferramenta de código aberto para gerar gráficos (diagramas) a partir de descrições textuais. Ele transforma texto em imagens de grafos, como autômatos, fluxogramas e redes, é um software externo que pode ser chamado de dentro de linguagens como Python.
+
+### Instalação:
+
+1. Em [download](https://graphviz.org/download/) baixe a versão *graphviz-14.0.2* que é a usada nesse projeto.
+1. Na instalação selecione a opção de adicionar o executável ao system PATH:
+
+    ![](./resources/images/instalacao_graphviz.png)
+
+    OBS: Se estiver executando o projeto dentro do ambiente virtual em um sistema operacional Windows, será necessário adicionar a leitura do executável no PATH do PowerShell. Execute o comando abaixo no PoweShell:
+    ```
+    $env:Path += ";C:\Program Files\Graphviz\bin"
+    ```
 
 ## Ambiente Virtual
 Para criação do ambiente virtual, execute:
