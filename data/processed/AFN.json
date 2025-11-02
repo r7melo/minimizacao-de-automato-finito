@@ -10,9 +10,9 @@
     ],
     "estado_inicial": "q0",
     "estados_finais": [
-        "q2",
         "q1",
-        "q0"
+        "q0",
+        "q2"
     ],
     "transicoes": {
         "q0": {
