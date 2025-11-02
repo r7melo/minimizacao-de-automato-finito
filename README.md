@@ -24,7 +24,7 @@ Em outras palavras, o processamento de qualquer entrada a partir de estados equi
 
 1. **Automato Minimo**
 
-1. **PréiRequisitos do Algoritimo de Minimização**
+1. **Pré-Requisitos do Algoritimo de Minimização**
 
 1. **Algoritimo de Minimização**
 
